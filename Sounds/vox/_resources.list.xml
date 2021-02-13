@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="vox_adventure_ponies" type="RESOURCE"/>
+  <resource name="vox_ready_start" type="RESOURCE"/>
+  <resource name="vox_ready_go" type="RESOURCE"/>
+  <resource name="vox_you_lose" type="RESOURCE"/>
+  <resource name="vox_game_over" type="RESOURCE"/>
+</resources>

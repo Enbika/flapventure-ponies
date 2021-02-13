@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed = 0.50;
+
+if(global.pony_sprite == spr_twilightsparkle) {
+    sprite_index = spr_twilight_dead;
+}
+if(global.pony_sprite == spr_fluttershy) {
+    sprite_index = spr_fluttershy_dead;
+}
+if(global.pony_sprite == spr_rainbowdash) {
+    sprite_index = spr_rainbow_dead;
+}
+if(global.pony_sprite == spr_spitfire) {
+    sprite_index = spr_spitfire_dead;
+}
+if(global.pony_sprite == spr_soarin) {
+    sprite_index = spr_soarin_dead;
+}
+
+background_hspeed[0] = 0;
+background_hspeed[1] = 0;
+background_hspeed[2] = 0;
+</argument>
+      </arguments>
+    </action>
+    <action id="107" library="1">
+      <!--action name: Set_Gravity-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_gravity</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">270</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>obj_pipe</appliesTo>
+      <arguments>
+        <argument kind="STRING">000010000</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>obj_point</appliesTo>
+      <arguments>
+        <argument kind="STRING">000010000</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>obj_ground</appliesTo>
+      <arguments>
+        <argument kind="STRING">000010000</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>obj_hearts</appliesTo>
+      <arguments/>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>obj_pipeCreator</appliesTo>
+      <arguments/>
+    </action>
+    <action id="211" library="1">
+      <!--action name: Begin_Sound-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sound</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SOUND">sfx_die</argument>
+        <argument kind="BOOLEAN">0</argument>
+      </arguments>
+    </action>
+    <action id="211" library="1">
+      <!--action name: Begin_Sound-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sound</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SOUND">vox_you_lose</argument>
+        <argument kind="BOOLEAN">0</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

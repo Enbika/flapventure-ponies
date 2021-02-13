@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_ctrl_gameOver" type="RESOURCE"/>
+  <resource name="obj_rainbow" type="RESOURCE"/>
+  <resource name="obj_gameOverText" type="RESOURCE"/>
+  <resource name="obj_playAgain" type="RESOURCE"/>
+  <resource name="obj_gameOverScore" type="RESOURCE"/>
+  <resource name="obj_heart" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<room>
+  <caption>Flapventure Ponies!</caption>
+  <size height="200" width="250"/>
+  <grid>
+    <isometric>false</isometric>
+    <snap x="2" y="2"/>
+  </grid>
+  <speed>30</speed>
+  <persistent>false</persistent>
+  <creationCode/>
+  <backgroundColor>C0C0C0</backgroundColor>
+  <drawBackgroundColor>true</drawBackgroundColor>
+  <clearViewBackground>true</clearViewBackground>
+  <backgrounds>
+    <backgroundDef>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>bg_gameOver</backgroundImage>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+  </backgrounds>
+  <enableViews>true</enableViews>
+  <views>
+    <view>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <viewInRoom height="200" width="250" x="0" y="0"/>
+      <portOnScreen height="600" width="750" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+  </views>
+  <instances>
+    <instance>
+      <object>obj_rainbow</object>
+      <position x="0" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_ctrl_gameOver</object>
+      <position x="0" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_playAgain</object>
+      <position x="125" y="160"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_rainbow</object>
+      <position x="202" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_gameOverText</object>
+      <position x="48" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_gameOverScore</object>
+      <position x="25" y="33"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_heart</object>
+      <position x="22" y="44"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_heart</object>
+      <position x="190" y="46"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+  </instances>
+  <tiles/>
+  <editorSettings remember="false"/>
+</room>

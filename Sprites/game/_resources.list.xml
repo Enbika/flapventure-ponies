@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ponies" type="GROUP"/>
+  <resource name="obj_scoreOverlay" type="RESOURCE"/>
+  <resource name="spr_getReady" type="RESOURCE"/>
+  <resource name="spr_pipe" type="RESOURCE"/>
+  <resource name="spr_point_mask" type="RESOURCE"/>
+  <resource name="spr_roomBarrier_mask" type="RESOURCE"/>
+  <resource name="spr_ground" type="RESOURCE"/>
+  <resource name="spr_scoreLabel" type="RESOURCE"/>
+  <resource name="spr_hearts" type="RESOURCE"/>
+</resources>

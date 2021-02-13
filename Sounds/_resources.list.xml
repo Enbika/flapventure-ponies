@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="mus_mainMenu" type="RESOURCE"/>
+  <resource name="mus_game" type="RESOURCE"/>
+  <resource name="sfx_gameOver" type="RESOURCE"/>
+  <resource name="sfx_die" type="RESOURCE"/>
+  <resource name="sfx_point" type="RESOURCE"/>
+  <resource name="sfx_menuClick" type="RESOURCE"/>
+  <resource name="sfx_wing" type="RESOURCE"/>
+  <resource name="vox" type="GROUP"/>
+</resources>

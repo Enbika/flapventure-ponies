@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_ctrl_game" type="RESOURCE"/>
+  <resource name="obj_pony" type="RESOURCE"/>
+  <resource name="obj_pony_dead" type="RESOURCE"/>
+  <resource name="obj_pony_getReady" type="RESOURCE"/>
+  <resource name="obj_scoreOverlay" type="RESOURCE"/>
+  <resource name="obj_getReady" type="RESOURCE"/>
+  <resource name="obj_pipeCreator" type="RESOURCE"/>
+  <resource name="obj_pipeCreator_getReady" type="RESOURCE"/>
+  <resource name="obj_pipe" type="RESOURCE"/>
+  <resource name="obj_point" type="RESOURCE"/>
+  <resource name="obj_roomBarrier" type="RESOURCE"/>
+  <resource name="obj_ground" type="RESOURCE"/>
+  <resource name="obj_score" type="RESOURCE"/>
+  <resource name="obj_hearts" type="RESOURCE"/>
+</resources>
